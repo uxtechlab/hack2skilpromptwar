@@ -24,6 +24,18 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 // Setup API prefix
 app.use('/api', router);
 
+// Root endpoint
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).json({
+    message: "AuraCare Clinic AI Assistant Backend API is running.",
+    endpoints: {
+      health: "/health",
+      services: "/api/services",
+      faqs: "/api/faqs"
+    }
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req: Request, res: Response) => {
   res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
