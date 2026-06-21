@@ -1,0 +1,195 @@
+{
+  "clinic": {
+    "name": "AuraCare Dental, Skin & Hair Clinic",
+    "phone": "+1 (555) 872-2273",
+    "email": "appointments@auracareclinic.com",
+    "address": "100 Medical Plaza, Suite 400, Beverly Hills, CA 90210",
+    "hours": "Mon-Sat: 9:00 AM - 7:00 PM, Sun: Closed"
+  },
+  "departments": [
+    {
+      "id": "dental",
+      "name": "Dental Department",
+      "description": "Comprehensive oral care, diagnostics, and advanced restorative treatments.",
+      "specialist": "Dr. Sarah Lin (DDS)"
+    },
+    {
+      "id": "skin",
+      "name": "Skin Department",
+      "description": "Medical-grade dermatological procedures, facials, and anti-aging therapies.",
+      "specialist": "Dr. Marcus Vance (MD, Dermatologist)"
+    },
+    {
+      "id": "hair",
+      "name": "Hair Department",
+      "description": "Clinical scalp treatments, hair restoration, and hair loss solutions.",
+      "specialist": "Dr. Elena Rostova (Trichologist)"
+    },
+    {
+      "id": "laser",
+      "name": "Laser Department",
+      "description": "State-of-the-art laser treatments for hair removal, scar revision, and skin rejuvenation.",
+      "specialist": "Dr. Jordan Kross (Laser Specialist)"
+    },
+    {
+      "id": "cosmetic",
+      "name": "Cosmetic Procedures",
+      "description": "Non-surgical aesthetic enhancements including injectables, fillers, and peels.",
+      "specialist": "Dr. Sarah Lin & Dr. Marcus Vance"
+    }
+  ],
+  "treatments": [
+    {
+      "id": "scaling-polishing",
+      "departmentId": "dental",
+      "name": "Dental Scaling & Polishing",
+      "description": "Professional teeth cleaning to remove plaque, tartar, and surface stains, preventing gum disease.",
+      "duration": "45 minutes",
+      "recoveryTime": "Immediate (no downtime)",
+      "cost": 120,
+      "safetyInfo": "Safe for everyone. Mild tooth sensitivity may occur for 24 hours.",
+      "keywords": ["bleeding gums", "dirty teeth", "bad breath", "scaling", "cleaning", "tartar", "plaque", "stains"]
+    },
+    {
+      "id": "root-canal",
+      "departmentId": "dental",
+      "name": "Root Canal Therapy (RCT)",
+      "description": "Specialized treatment to repair and save a severely decayed or infected tooth, relieving excruciating pain.",
+      "duration": "60-90 minutes",
+      "recoveryTime": "1-2 days (mild soreness)",
+      "cost": 850,
+      "safetyInfo": "Performed under local anesthesia. Avoid chewing on the treated side until the permanent crown is placed.",
+      "keywords": ["tooth pain", "tooth ache", "decay", "infection", "cavity", "root canal", "sensitive to hot", "sensitive to cold", "throbbing pain"]
+    },
+    {
+      "id": "carbon-laser",
+      "departmentId": "skin",
+      "name": "Carbon Laser Toning (Hollywood Peel)",
+      "description": "A non-invasive treatment using medical carbon cream and Q-Switched laser to reduce acne, open pores, and boost collagen.",
+      "duration": "45 minutes",
+      "recoveryTime": "Immediate (mild redness for 1-2 hours)",
+      "cost": 200,
+      "safetyInfo": "Extremely safe for most skin types. Wear SPF 30+ daily and avoid direct sun exposure for 48 hours post-treatment.",
+      "keywords": ["acne", "pores", "skin dullness", "carbon laser", "peel", "blackheads", "uneven tone", "glowing skin"]
+    },
+    {
+      "id": "chemical-peel",
+      "departmentId": "skin",
+      "name": "Chemical Peel (Salicylic/Glycolic)",
+      "description": "Application of custom dermatological acids to exfoliate dead layers of skin, clearing acne and reducing pigmentation.",
+      "duration": "30 minutes",
+      "recoveryTime": "3-5 days (peeling process)",
+      "cost": 150,
+      "safetyInfo": "May cause scaling and dryness. Strictly avoid picking peeling skin. Apply recommended moisturizers and sunscreens.",
+      "keywords": ["acne scars", "pigmentation", "dark spots", "chemical peel", "skin texture", "exfoliation", "dead skin"]
+    },
+    {
+      "id": "prp-hair",
+      "departmentId": "hair",
+      "name": "PRP Hair Restoration (Platelet-Rich Plasma)",
+      "description": "Micro-injections of your own platelets into the scalp to stimulate hair follicles, boost density, and stop hair fall.",
+      "duration": "60 minutes",
+      "recoveryTime": "1 day (mild scalp tenderness)",
+      "cost": 350,
+      "safetyInfo": "100% natural, utilizes patient's own blood. Avoid washing scalp for 24 hours and skip intense workouts on treatment day.",
+      "keywords": ["hair fall", "hair loss", "thinning hair", "bald spots", "hair regrowth", "prp", "scalp restoration"]
+    },
+    {
+      "id": "anti-dandruff-scalp",
+      "departmentId": "hair",
+      "name": "Clinical Anti-Dandruff Treatment",
+      "description": "Exfoliating scalp scrub combined with therapeutic antifungal solutions and phototherapy to eliminate stubborn dandruff.",
+      "duration": "45 minutes",
+      "recoveryTime": "Immediate",
+      "cost": 110,
+      "safetyInfo": "Hypoallergenic. Safe for color-treated hair.",
+      "keywords": ["dandruff", "itchy scalp", "flaking", "dry scalp", "seborrheic dermatitis"]
+    },
+    {
+      "id": "laser-hair-removal",
+      "departmentId": "laser",
+      "name": "Full Body Laser Hair Removal",
+      "description": "Advanced triple-wavelength laser targeting hair roots to inhibit growth permanently. Suitable for all skin and hair types.",
+      "duration": "60-120 minutes",
+      "recoveryTime": "Immediate",
+      "cost": 400,
+      "safetyInfo": "Do not wax or pluck 2 weeks prior (shaving only). Apply soothing gel and avoid hot showers for 24 hours.",
+      "keywords": ["unwanted hair", "laser hair removal", "facial hair", "bikini line", "body hair", "shaving bumps"]
+    },
+    {
+      "id": "laser-tattoo-removal",
+      "departmentId": "laser",
+      "name": "Q-Switched Laser Tattoo Removal",
+      "description": "High-intensity laser beams break down ink particles in the skin, allowing natural body elimination over multiple sessions.",
+      "duration": "30 minutes",
+      "recoveryTime": "5-7 days (healing scab)",
+      "cost": 180,
+      "safetyInfo": "Will form minor blisters or scabs. Keep clean and apply antibacterial ointment as directed. Do not scratch.",
+      "keywords": ["tattoo removal", "ink removal", "remove tattoo", "fading ink"]
+    },
+    {
+      "id": "botox-inject",
+      "departmentId": "cosmetic",
+      "name": "Botox Anti-Wrinkle Injections",
+      "description": "FDA-approved quick injections to temporarily relax facial muscles, smoothing out forehead lines, crow's feet, and frown lines.",
+      "duration": "15-20 minutes",
+      "recoveryTime": "Immediate (no downtime)",
+      "cost": 300,
+      "safetyInfo": "Do not lie down for 4 hours or exercise for 24 hours post-injection. Results appear within 3-7 days.",
+      "keywords": ["wrinkles", "fine lines", "crow feet", "aging", "botox", "forehead lines", "anti-aging"]
+    },
+    {
+      "id": "dermal-fillers",
+      "departmentId": "cosmetic",
+      "name": "Hyaluronic Acid Dermal Fillers",
+      "description": "Injectable gels used to restore lost volume, contour the cheeks, plump lips, and soften deep facial creases.",
+      "duration": "45 minutes",
+      "recoveryTime": "1-2 days (potential light swelling/bruising)",
+      "cost": 500,
+      "safetyInfo": "Avoid blood thinners like aspirin for 3 days prior. Ice the area if swelling occurs.",
+      "keywords": ["lip filler", "cheek filler", "volume loss", "sunken cheeks", "fillers", "thin lips"]
+    }
+  ],
+  "faqs": [
+    {
+      "category": "General",
+      "question": "What are your clinic timings?",
+      "answer": "AuraCare Clinic is open Monday through Saturday from 9:00 AM to 7:00 PM. We are closed on Sundays."
+    },
+    {
+      "category": "General",
+      "question": "Where is the clinic located?",
+      "answer": "We are located at 100 Medical Plaza, Suite 400, Beverly Hills, CA 90210. Validated parking is available in the building basement."
+    },
+    {
+      "category": "Bookings",
+      "question": "How do I cancel or reschedule my appointment?",
+      "answer": "You can cancel or reschedule up to 24 hours in advance without any fee. Please call our reception at +1 (555) 872-2273 or reply directly to your booking confirmation text."
+    },
+    {
+      "category": "Laser",
+      "question": "Is laser hair removal painful?",
+      "answer": "Our clinic uses advanced cooling technology that minimizes discomfort. Most patients describe the sensation as a light rubber band snap. It is highly tolerable."
+    },
+    {
+      "category": "Skin",
+      "question": "How many sessions of Carbon Laser do I need to see results?",
+      "answer": "You will notice an instant glow after just one session! For acne control and skin tightening, we recommend a package of 4 to 6 sessions spaced 2 weeks apart."
+    },
+    {
+      "category": "Dental",
+      "question": "What should I do if I have a severe toothache?",
+      "answer": "A severe throbbing toothache indicates a potential nerve infection. We recommend booking an emergency consultation with Dr. Sarah Lin immediately. You can rinse with warm salt water and take over-the-counter pain relief in the meantime."
+    },
+    {
+      "category": "Payments",
+      "question": "Do you accept health insurance?",
+      "answer": "We accept major dental insurance plans for restorative and preventative dental procedures. Cosmetic, skin, hair, and laser treatments are elective and must be paid out-of-pocket. We offer flexible financing via CareCredit."
+    },
+    {
+      "category": "Hair",
+      "question": "Is PRP hair restoration safe? What is the downtime?",
+      "answer": "Yes, PRP is extremely safe as it uses your own blood plasma, eliminating risk of allergic reactions. The downtime is virtually zero; you might experience mild scalp tenderness for 12-24 hours."
+    }
+  ]
+}
